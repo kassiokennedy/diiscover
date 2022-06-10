@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+
+}
+iframe{
+  margin: 100px;
+}
+#div1 {
+  display: grid;
+  padding: 10px;
+  border: 1px solid red;
+  
+}
+#div2 {
+  
+}

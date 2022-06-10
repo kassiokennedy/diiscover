@@ -1,0 +1,22 @@
+Seletor global    -> *
+Seletor de tipos  -> h1, h2, p, div
+Seletor de ID     -> #
+Seletor de classe -> .
+
+
+#################
+
+at rules
+@import
+@media
+@font-face
+@keyframes
+
+#################
+Tipos numericos 
+ 
+ <integer> numero inteiro
+ <number> numero decimal
+
+Distancias absolutas
+1cm = 96px
