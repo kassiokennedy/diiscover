@@ -7,7 +7,8 @@
     <title>Document</title>
   </head>
   <body>
-    <form id="" action="">
+    <!----FORMULARIO----------------------------------------------->
+    <form action="">
       <fieldset>
         <legend>Contato</legend>
 
@@ -25,6 +26,39 @@
           <option>Outros</option>
         </datalist>
       </fieldset>
+      <!--------------------------------------------------->
+      <fieldset>
+        <legend>Documentos</legend>
+        <input type="file" accept=".doc,.pdf" name="" id="" />
+      </fieldset>
+      <!--------------------------------------------------->
+
+      <fieldset>
+        <!--Email-->
+        <legend>Login</legend>
+        <input type="email" placeholder="Digite seu email" />
+
+        <!--Senha-->
+        <button type="submit">Enviar</button>
+        <label for="Senha">Senha</label>
+        <input
+          type="password"
+          pattern="[0-9a-fA-F]{4,8}"
+          title="Coloque HEX"
+          placeholder="Digite sua senha"
+          inputmode="numeric"
+        /><!--inputemode estabelece o tipo de teclado a ser usado em smartphones-->
+        <button type="submit">Enviar</button>
+      </fieldset>
+      <fieldset>
+        <legend>Concorda</legend>
+        <label for="yes">Sim</label>
+        <input type="radio" id="yes" name="aceite" value="yes" />
+
+        <label for="not">Não</label>
+        <input type="radio" id="not" name="aceite" value="yes" />
+      </fieldset>
+      <!----FIM-DO-FORMULARIO----------------------------------------------->
     </form>
   </body>
 </html>
